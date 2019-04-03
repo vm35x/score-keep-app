@@ -44,9 +44,7 @@ class Player extends Component {
             <button
               className="button button--round"
               onClick={() => Players.remove({ _id: this.props.player._id })}
-            >
-              X
-            </button>
+            >X</button>
           </div>
         </div>
       </div>
